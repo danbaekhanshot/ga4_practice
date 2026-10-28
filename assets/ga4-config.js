@@ -16,7 +16,7 @@ var GA4_MEASUREMENT_ID = 'G-5ZS6ENK0EB';
 */
 (function () {
   var id = (GA4_MEASUREMENT_ID || '').trim();
-  window.GA4_READY = /^G-[A-Z0-9]{4,}$/.test(id) && id !== 'G-5ZS6ENK0EB';
+  window.GA4_READY = /^G-[A-Z0-9]{4,}$/.test(id) && id !== 'G-xxxxxxxxxx';
 
   window.dataLayer = window.dataLayer || [];
   window.gtag = function () { window.dataLayer.push(arguments); };
